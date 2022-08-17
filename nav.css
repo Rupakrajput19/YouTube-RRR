@@ -104,8 +104,8 @@ nav {
     }
 
     nav{
-    height: 100vh;
-    width: 80px;
+    height: 0;
+    width: 0; 
   }
   }
   /* navigation css end here */

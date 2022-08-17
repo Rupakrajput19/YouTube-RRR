@@ -113,18 +113,18 @@ body {
   }
 }
 
-@media all and (min-width:320px){
+@media all and (max-width:600px){
   body{
   /* width: 100vw; */
   /* height: 100vh; */
   display: grid;
   /* grid-gap: 10px; */
- /* grid-template-areas:
+grid-template-areas:
     "header header header"
-    "nav main main"
-    "nav footer footer";
-  grid-template-rows: 70px 10fr 1fr;
-  grid-template-columns: auto;  */
+    "main main main"
+    "footer footer footer";
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr auto;
   }
 }
 /* Animation of laoding red line is end here */
