@@ -168,4 +168,16 @@ margin: 0;
   .playlist-box .list{
     height: auto;
   }
+  main{
+    position: relative;
+    top: 75px;
+  }
+  .video-container .video-box {
+  margin: 10px 5px;
+}
+.video-box iframe {
+  padding: 0;
+  height: 250px;
+  width: 390px;
+}
 }

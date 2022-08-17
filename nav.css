@@ -104,8 +104,12 @@ nav {
     }
 
     nav{
+      /* display: none; */
     height: 0;
     width: 0; 
+    /* position: fixed;
+    top: 72px;
+    left: 0; */
   }
   }
   /* navigation css end here */
