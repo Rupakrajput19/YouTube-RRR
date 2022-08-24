@@ -188,3 +188,9 @@ main::-webkit-scrollbar-thumb {
     height: auto;
   }
 }
+.video-box iframe {
+  padding: 0;
+  height: 250px;
+  width: 360px;
+}
+
