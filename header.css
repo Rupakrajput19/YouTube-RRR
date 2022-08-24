@@ -178,7 +178,10 @@ header .material-icons-outlined {
   .left-header .material-icons-outlined , .mid-header{
     display: none;
   }
+  .left-header, .right-header{
+    margin: 10px;
+  }
   .right-header .media_hidden{
-    display:inline-block;
+    display: block;
   }
 }

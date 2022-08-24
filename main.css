@@ -4,8 +4,8 @@ main {
   grid-area: main;
   background-color: whitesmoke;
   /* width: auto; */
-  /* height: 3000px;
-  overflow-y: scroll; */
+  height: auto;
+  /* overflow-y: scroll; */
   /* display: flex;
   flex-direction: column; */
 }
@@ -31,12 +31,12 @@ main::-webkit-scrollbar-thumb {
   top: 65px;
   background-color: white;
   /* box-shadow: 0px 0px 2px black; */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  /* display: flex;
-  flex-wrap: nowrap;
-  overflow-x: scroll; */
+  /* display: flex;*/
+  /* flex-wrap: nowrap; */
+  /* overflow: scroll; */
 }
 
 /* .slider-names::-webkit-scrollbar {
@@ -56,6 +56,7 @@ main::-webkit-scrollbar-thumb {
   cursor: pointer;
   margin: 10px 6px;
   padding: 6px 10px;
+  width: auto;
   font-size: 14px;
   border: 1px solid #ddd;
   border-radius: 16px;
@@ -123,17 +124,17 @@ main::-webkit-scrollbar-thumb {
   /* box-shadow: 2px 2px 8px black, -2px -2px 5px black; */
 }
 
-.playlist-box{
-  margin: 65px 10px 10px 10px;
+.playlist-box {
+  margin: 20px 10px;
   text-transform: capitalize;
   border: 1px solid green;
 }
 
-.playlist-box h4{
+.playlist-box h4 {
   margin: 5px 10px;
 }
 
-.playlist-box .list{
+.playlist-box .list {
   margin: 6px 10px;
   display: flex;
   flex-direction: column;
@@ -141,43 +142,49 @@ main::-webkit-scrollbar-thumb {
   box-sizing: border-box;
   height: 100px;
 }
- 
-.playlist-box .list li{
-list-style-type:square;
-padding: 2px 0px;
-margin: 0;
+
+.playlist-box .list li {
+  list-style-type: square;
+  padding: 2px 0px;
+  margin: 0;
 }
 
-.playlist-box .list li:hover{
+.playlist-box .list li:hover {
   font-weight: bold;
 }
 
-
-
-
-
 /* mainbody css end here */
 
-@media all and (min-width:601px) and (max-width:1000px) {
-  .playlist-box .list{
+@media all and (min-width: 601px) and (max-width: 1000px) {
+  .playlist-box .list {
     height: 300px;
   }
 }
 
-@media all and (max-width:600px){
-  .playlist-box .list{
-    height: auto;
-  }
-  main{
+@media all and (max-width: 600px) {
+  main {
     position: relative;
     top: 75px;
   }
+  .slider-names{
+  box-shadow: 0px 0px 2px black;
+  border-bottom: none;
+  }
+  .slider-names .active-sonu,
+  .slider-names .active-sonu:hover {
+    color: white;
+    /* background-color: rgb(35, 35, 35); */
+    background-color: rgb(100, 100, 100);
+  }
   .video-container .video-box {
-  margin: 10px 5px;
-}
-.video-box iframe {
-  padding: 0;
-  height: 250px;
-  width: 390px;
-}
+    margin: 10px 5px;
+  }
+  .video-box iframe {
+    padding: 0;
+    height: 250px;
+    width: 390px;
+  }
+  .playlist-box .list {
+    height: auto;
+  }
 }
