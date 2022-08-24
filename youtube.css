@@ -10,18 +10,15 @@
 html {
   scroll-behavior: smooth;
 }
-  html::-webkit-scrollbar {
-    width: 15px;
+  body::-webkit-scrollbar {
+    width: 10px;
+    background-color: whitesmoke;
+  }
+  body::-webkit-scrollbar-track {
     border-radius: 30px;
     background-color: whitesmoke;
   }
-  html::-webkit-scrollbar-track {
-    width: 15px;
-    border-radius: 30px;
-    background-color: whitesmoke;
-  }
-  html::-webkit-scrollbar-thumb {
-    width: 15px;
+  body::-webkit-scrollbar-thumb {
     border-radius: 30px;
     background-color: rgb(252, 53, 53);
     /* background-color: rgb(0, 0, 0); */
