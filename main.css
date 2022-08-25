@@ -95,10 +95,10 @@ main::-webkit-scrollbar-thumb {
   flex-wrap: wrap;
 }
 .video-container .video-box {
+  margin: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 10px;
   background-color: #fff;
   border-radius: 5px;
   /* outline: 2px solid blue; */
@@ -163,7 +163,7 @@ main::-webkit-scrollbar-thumb {
     .video-box iframe {
       padding: 0;
       height: 250px;
-      width: 370px;
+      width: 365px;
   }
 
   .playlist-box .list {
@@ -192,7 +192,7 @@ main::-webkit-scrollbar-thumb {
   .video-box iframe {
     padding: 0;
     height: 250px;
-    width: 350px;
+    width: 335px;
   }
   .playlist-box .list {
     height: auto;
