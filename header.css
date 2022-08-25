@@ -171,16 +171,16 @@ header .material-icons-outlined {
 
 
 @media all and (min-width: 601px) and (max-width: 1000px) {
-  /* .mid-header .close {
+  .mid-header .close {
     margin: 0;
     position: absolute;
-    right: 420px;
+    right: 540px;
     display: none;
   }
   
   .mid-header form input:not(:placeholder-shown) + .close {
     display: block;
-  } */
+  }
 }
 
 @media all and (max-width: 600px) {
