@@ -112,7 +112,7 @@ body {
 
 @media all and (min-width: 601px) and (max-width: 1000px){
   body {
-    width: 150vw;
+    width: 160vw;
     height: auto;
   }
 }

@@ -157,6 +157,11 @@ main::-webkit-scrollbar-thumb {
 /* mainbody css end here */
 
 @media all and (min-width: 601px) and (max-width: 1000px) {
+    .video-box iframe {
+    padding: 0;
+    height: 250px;
+    width: 350px;
+  }
   .playlist-box .list {
     height: 250px;
   }
