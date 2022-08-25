@@ -171,7 +171,17 @@ header .material-icons-outlined {
 
 /* header css end here */
 
-@media all and (min-width: 321px) and (max-width: 1000px) {
+@media all and (min-width: 601px) and (max-width: 1000px) {
+  .mid-header .close {
+    margin: 0;
+    position: absolute;
+    right: 420px;
+    display: none;
+  }
+  
+  .mid-header form input:not(:placeholder-shown) + .close {
+    display: block;
+  }
 }
 
 @media all and (max-width: 600px) {
