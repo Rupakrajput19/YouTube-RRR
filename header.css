@@ -169,10 +169,9 @@ header .material-icons-outlined {
   cursor: pointer;
 }
 
-/* header css end here */
 
 @media all and (min-width: 601px) and (max-width: 1000px) {
-  .mid-header .close {
+  /* .mid-header .close {
     margin: 0;
     position: absolute;
     right: 420px;
@@ -181,7 +180,7 @@ header .material-icons-outlined {
   
   .mid-header form input:not(:placeholder-shown) + .close {
     display: block;
-  }
+  } */
 }
 
 @media all and (max-width: 600px) {
@@ -195,3 +194,5 @@ header .material-icons-outlined {
     display: block;
   }
 }
+
+/* header css end here */

@@ -163,7 +163,7 @@ main::-webkit-scrollbar-thumb {
     .video-box iframe {
       padding: 0;
       height: 250px;
-      width: 390px;
+      width: 370px;
   }
 
   .playlist-box .list {
@@ -173,7 +173,7 @@ main::-webkit-scrollbar-thumb {
 
 @media all and (max-width: 600px) {
   main {
-    position: relative;
+    position: absolute;
     top: 75px;
   }
   .slider-names {
@@ -192,7 +192,7 @@ main::-webkit-scrollbar-thumb {
   .video-box iframe {
     padding: 0;
     height: 250px;
-    width: 360px;
+    width: 350px;
   }
   .playlist-box .list {
     height: auto;
