@@ -173,7 +173,7 @@ main::-webkit-scrollbar-thumb {
 
 @media all and (max-width: 600px) {
   main {
-    position: absolute;
+    position: relative;
     top: 75px;
   }
   .slider-names {
