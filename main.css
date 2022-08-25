@@ -158,13 +158,13 @@ main::-webkit-scrollbar-thumb {
 
 @media all and (min-width: 601px) and (max-width: 1000px) {
   .video-container .video-box {
-    margin: 25px 12px;
+    margin: 20px 15px;
   }
-    /* .video-box iframe {
-    padding: 0;
-    height: 250px;
-    width: 350px;
-  } */
+    .video-box iframe {
+      padding: 0;
+      height: 250px;
+      width: 390px;
+  }
 
   .playlist-box .list {
     height: 250px;
