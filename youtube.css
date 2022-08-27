@@ -60,7 +60,7 @@ body {
     "header header header"
     "nav main main"
     "nav footer footer";
-  grid-template-rows: 70px 10fr 1fr;
+  grid-template-rows: 70px auto 1fr;
   grid-template-columns: 250px auto;
   /* background-color:cyan; */
 }
