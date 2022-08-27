@@ -142,7 +142,7 @@ main::-webkit-scrollbar-thumb {
   flex-direction: column;
   flex-wrap: wrap;
   box-sizing: border-box;
-  height: 150px;
+  height: 200px;
 }
 
 .playlist-box .list li{
@@ -150,7 +150,7 @@ main::-webkit-scrollbar-thumb {
   padding: 2px 0;
   margin: 2px 0;
 }
-.playlist-box .list li:hover {
+.playlist-box .list li :is(:hover,:focus) {
   font-weight: bold;
 }
 
