@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: whitesmoke;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 30px;
+  background-color: whitesmoke;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: rgb(252, 53, 53);
+  /* background-color: rgb(0, 0, 0); */
+}
+
+:root {
+  --m-left: 25px;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+b {
+  text-transform: capitalize;
+}
+
+.m-left {
+  margin-left: var(--m-left);
+}
+
+hr {
+  background-color: #ddd;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  /* width: 100vw; */
+  /* height: 100vh; */
+  display: grid;
+  /* grid-gap: 10px; */
+  grid-template-areas:
+    "header header header"
+    "nav main main"
+    "nav footer footer";
+  grid-template-rows: 70px auto 1fr;
+  grid-template-columns: 250px auto;
+  /* background-color:cyan; */
+}
+
+/* Animation of laoding red line is Start here */
+
+#load {
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  height: 4px;
+  width: 100px;
+  background-color: white;
+  /* border: 2px solid blue; */
+}
+
+#load #loading {
+  /* display: inline-block; */
+  position: fixed;
+  top: 0px;
+  background-color: red;
+  /* border: 1px solid black; */
+  height: 3px;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  /* width: 5px; */
+  animation-name: loading;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  /* animation-delay: 0.5s; */
+  animation-iteration-count: 1;
+  /* animation-iteration-count: infinite; */
+  animation-direction: alternate;
+  /* animation-direction:forward; */
+}
+
+@keyframes loading {
+  10% {
+    width: 100px;
+  }
+  40% {
+    width: 700px;
+  }
+  100% {
+    width: 1480px;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 1000px){
+  body {
+    width: 145vw;
+    height: auto;
+  }
+}
+
+@media all and (max-width: 600px) {
+  body {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    display: grid;
+    /* grid-gap: 10px; */
+    grid-template-areas:
+      "header header header"
+      "main main main"
+      "footer footer footer";
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+  }
+}
+/* Animation of laoding red line is end here */
